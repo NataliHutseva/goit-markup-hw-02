@@ -1,0 +1,200 @@
+:root {
+	--primary-title-color : #ffffff;
+	--secondary-title-color : #212121;
+	--primary-text-color : #757575;
+	--accent-color: #2196F3;
+	--header-text-color: #212121;
+	--accent-bacground-color: #2F303A;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.03em;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+}
+
+
+/*---------Header--------*/
+
+.header-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	color:var(--header-text-color);
+}
+
+.header-list .current {
+	color: var(--accent-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+	color: var(--accent-color);
+}
+
+.header-contacts-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	color: var(--header-text-color);
+}
+
+.header-logo-web {
+	color: var(--accent-color);
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31 / 26) ;
+}
+
+.header-logo-studio {
+	color: var(--secondary-title-color);
+}
+
+/*-----------HERO-STUDIO---------------*/
+
+.hero {
+	background-color: var(--accent-bacground-color);
+}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--primary-title-color);
+}
+
+.hero-title-btn {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.87;
+	color: var(--primary-title-color);
+	background-color: var(--accent-color);
+}
+
+/*-----------SERVICES STUDIO---------------*/
+
+.services-details {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--secondary-title-color);
+}
+
+.services-details-text {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	color: var(--primary-text-color);
+}
+
+
+/*-----------COMAND-STUDIO---------------*/
+
+.job-team {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.17;
+	color: var(--secondary-title-color);
+}
+
+.comand-personal {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	color: var(--secondary-title-color);
+}
+
+.comand-profeshional {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	color: var(--primary-text-color);
+}
+
+
+/*----------PORTFOLIO.html--------------*/
+
+
+
+.hero-portfolio-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	border: none;
+	color: var(--secondary-title-color);
+}
+
+.proect-name {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--secondary-title-color);
+
+}
+
+
+.proect-views {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color)
+
+}
+
+
+/*----------FOOTER----------------*/
+
+
+.footer {
+	background-color: var(--accent-bacground-color);
+}
+
+.futter-logo-web {
+	color: var(--accent-color);
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31 / 26) ;
+}
+
+.fotter-logo-studio {
+	color:var(--primary-title-color);
+}
+
+.address {
+	font-style: inherit;
+}
+.address-location {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	color: var(--primary-title-color);
+
+}
+
+.address-link {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	color: rgba(255, 255, 255, 0.6);;
+}
