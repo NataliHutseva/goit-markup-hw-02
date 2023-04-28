@@ -1,0 +1,36 @@
+:root {
+--primary-font:'Roboto', sans-serif;
+--secondary-font: 'Raleway', sans-serif;
+--primary-text-color-teme-light: #2E2F42;
+--primary-text-color-teme-dark:#FFFFFF;
+--secondary-text-color-teme-light: #434455;
+--secondary-text-color-teme-dark: #F4F4FD;
+--accent-color:#4D5AE5;
+}
+
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+body {
+	font-family: var(--primary-font);
+}
+
+/* =====================COMPONENTS========================= */
+
+
+
+
+/* =====================COMPONENTS========================= */
+
+/* =====================HEADER================================ */
+
+
+
+
+/* =====================HEADER================================ */
+
+
+
