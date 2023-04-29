@@ -21,6 +21,7 @@
 body {
 	font-family: var(--primary-font);
 	color: var(--primary-text-color-teme-light);
+	color: var(--secondary-text-color-teme-light);
 }
 
 /* =====================COMPONENTS============================ */
@@ -30,6 +31,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 color: var(--accent-color);
 
 }
@@ -38,6 +40,7 @@ color: var(--accent-color);
 /* =====================COMPONENTS========================= */
 
 /* =====================HEADER================================ */
+
 .header-logo{
 font-family: 'Raleway';
 font-weight: 800;
@@ -88,6 +91,7 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
 color: var(--primary-text-color-teme-dark);
 }
 .hero-button:hover,
@@ -95,6 +99,7 @@ color: var(--primary-text-color-teme-dark);
 	background-color: var(--menu-link-color);
 }
 .hero-button {
+	font-family: var(--primary-font);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -131,6 +136,8 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 color: var(--primary-text-color-teme-light);
 }
 /* ==============================================WORK========================= */
@@ -141,6 +148,19 @@ color: var(--primary-text-color-teme-light);
 }
 .galary-ourteam{
 background-color: var(--third-color-background);
+}
+.subtitle-ourteam{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
 }
 .emploer{
 font-weight: 500;
@@ -221,6 +241,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-transform: uppercase;
 
 color: var(--secondary-text-color-teme-dark);
 }
