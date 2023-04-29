@@ -22,6 +22,7 @@ body {
 	font-family: var(--primary-font);
 	color: var(--primary-text-color-teme-light);
 	color: var(--secondary-text-color-teme-light);
+	background-color: var(--third-color-background);
 }
 
 /* =====================COMPONENTS============================ */
@@ -65,10 +66,11 @@ color: var(--primary-text-color-teme-light);
 .menu-link:active {
 color: var(--menu-link-color);
 }
-
+.address{
+font-style: normal;
+}
 .contacts-information-link{
 font-family: var(--primary-font);
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
